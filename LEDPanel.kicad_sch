@@ -1743,6 +1743,16 @@
 	)
 	(wire
 		(pts
+			(xy 189.23 48.26) (xy 144.78 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a030e815-b471-481c-88ff-81ad9d1cdeb4")
+	)
+	(wire
+		(pts
 			(xy 149.86 80.01) (xy 153.67 80.01)
 		)
 		(stroke
@@ -1843,13 +1853,23 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 36.83) (xy 127 36.83)
+			(xy 189.23 36.83) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "be16154d-a318-4389-93ff-9f059db650a7")
+	)
+	(wire
+		(pts
+			(xy 181.61 43.18) (xy 137.16 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bed10ee6-fc71-48b5-a50b-03a886d9a2da")
 	)
 	(wire
 		(pts
@@ -1873,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 48.26) (xy 144.78 36.83)
+			(xy 189.23 38.1) (xy 189.23 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2380,7 +2400,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 142.24 53.34 0)
+		(at 186.69 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2391,7 +2411,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a52f82f-281f-4a1d-83b6-b03a5c085008")
 		(property "Reference" "Q5"
-			(at 147.32 52.0699 0)
+			(at 191.77 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2402,7 +2422,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 147.32 54.6099 0)
+			(at 191.77 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2413,7 +2433,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 147.32 55.245 0)
+			(at 191.77 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2426,7 +2446,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 142.24 53.34 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2438,7 +2458,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 142.24 53.34 0)
+			(at 186.69 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
