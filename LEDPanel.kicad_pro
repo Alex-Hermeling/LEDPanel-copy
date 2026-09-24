@@ -650,13 +650,17 @@
         "uuid": "9a3f8280-0d88-4d37-bbab-29e72040df2a"
       }
     ],
-    "used_designators": "",
+    "used_designators": "D9",
     "variants": []
   },
   "sheets": [
     [
       "9a3f8280-0d88-4d37-bbab-29e72040df2a",
       "LEDPanel"
+    ],
+    [
+      "c642f94d-f3ae-4ed6-87b5-938ffe6543db",
+      "Test_Sheet"
     ]
   ],
   "text_variables": {},
