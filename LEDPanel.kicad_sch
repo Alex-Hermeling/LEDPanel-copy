@@ -1216,6 +1216,12 @@
 		(uuid "9543af7a-ab13-474c-a38c-c2c067ba264e")
 	)
 	(junction
+		(at 177.8 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99aa6041-189d-46a3-91a3-bdab2098af05")
+	)
+	(junction
 		(at 123.19 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1290,6 +1296,16 @@
 			(type default)
 		)
 		(uuid "0b0d52f0-735e-4d67-859e-100f98076016")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 189.23 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1088a14c-66ec-4328-9a4e-6357b490c82b")
 	)
 	(wire
 		(pts
@@ -1753,7 +1769,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 48.26) (xy 144.78 58.42)
+			(xy 177.8 48.26) (xy 144.78 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1863,7 +1879,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 36.83) (xy 127 36.83)
+			(xy 177.8 36.83) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1873,7 +1889,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 43.18) (xy 137.16 53.34)
+			(xy 170.18 43.18) (xy 137.16 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1903,7 +1919,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 38.1) (xy 189.23 36.83)
+			(xy 177.8 38.1) (xy 177.8 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2102,7 +2118,7 @@
 		(uuid "8fdcc6e4-df46-4d4b-87b7-acce9da3c300")
 	)
 	(label "label"
-		(at 189.23 48.26 0)
+		(at 177.8 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2113,7 +2129,7 @@
 	)
 	(global_label "global_lable"
 		(shape input)
-		(at 189.23 36.83 0)
+		(at 177.8 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2123,7 +2139,7 @@
 		)
 		(uuid "8b38846b-7fd5-438c-bed8-7ae86eb88a55")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.8262 36.83 0)
+			(at 192.3962 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2454,7 +2470,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2N3904")
-		(at 186.69 43.18 0)
+		(at 175.26 43.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2465,7 +2481,7 @@
 		(fields_autoplaced yes)
 		(uuid "3a52f82f-281f-4a1d-83b6-b03a5c085008")
 		(property "Reference" "Q5"
-			(at 191.77 41.9099 0)
+			(at 180.34 41.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2476,7 +2492,7 @@
 			)
 		)
 		(property "Value" "2N3904"
-			(at 191.77 44.4499 0)
+			(at 180.34 44.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2487,7 +2503,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 191.77 45.085 0)
+			(at 180.34 45.085 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2500,7 +2516,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
-			(at 186.69 43.18 0)
+			(at 175.26 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2512,7 +2528,7 @@
 			)
 		)
 		(property "Description" "0.2A Ic, 40V Vce, Small Signal NPN Transistor, TO-92"
-			(at 186.69 43.18 0)
+			(at 175.26 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
