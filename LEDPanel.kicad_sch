@@ -1433,6 +1433,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 76.2) (xy 210.82 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ecaa8e5-c671-4c30-9b4f-058c23e28704")
+	)
+	(wire
+		(pts
 			(xy 148.59 101.6) (xy 152.4 101.6)
 		)
 		(stroke
@@ -2080,6 +2090,50 @@
 			(type default)
 		)
 		(uuid "ff3c3dfd-3796-4ae2-8f46-e796bd777ff2")
+	)
+	(label "lable"
+		(at 210.82 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8fdcc6e4-df46-4d4b-87b7-acce9da3c300")
+	)
+	(label "label"
+		(at 189.23 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff91d941-6812-478c-9f0b-471e9b0ae72f")
+	)
+	(global_label "global_lable"
+		(shape input)
+		(at 189.23 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8b38846b-7fd5-438c-bed8-7ae86eb88a55")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.8262 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -4855,6 +4909,62 @@
 				(path "/9a3f8280-0d88-4d37-bbab-29e72040df2a"
 					(reference "Q4")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 81.28)
+		(size 74.93 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c642f94d-f3ae-4ed6-87b5-938ffe6543db")
+		(property "Sheetname" "Test_Sheet"
+			(at 196.85 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "test_sheet.kicad_sch"
+			(at 196.85 125.0446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "hierarchical_label" input
+			(at 210.82 81.28 90)
+			(uuid "2f3f043a-8e03-49ef-b62f-c25a1b283bb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "LEDPanel"
+				(path "/9a3f8280-0d88-4d37-bbab-29e72040df2a"
+					(page "2")
 				)
 			)
 		)
